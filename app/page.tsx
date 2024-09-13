@@ -26,6 +26,7 @@ export default function Home() {
   };
   const fetchData = async () => {
     try {
+      console.log("api key: ", process.env.DEBANK_API)
       const response = await fetch(
         'https://pro-openapi.debank.com/v1/user/total_balance?id=0x5F8a78AE34491E0e18d935C74000549d1a6cC16B',
         {
