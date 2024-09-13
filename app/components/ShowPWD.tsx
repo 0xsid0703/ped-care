@@ -46,7 +46,7 @@ export default function ShowPWD({ index, address }: Props) {
     };
 
     return (
-        <div className='py-5 gap-3 text-center md:w-1/4 w-full border border-white rounded-md flex flex-col justify-center items-center text-white'>
+        <div className='py-5 gap-3 text-center md:w-1/3 w-full border border-white rounded-md flex flex-col justify-center items-center text-white'>
             <div className='flex flex-row justify-between md:w-4/6 w-3/4 items-center'>
                 <span>Address:</span>
                 <p>{showAddress(address)}</p>
