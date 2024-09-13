@@ -32,7 +32,7 @@ export default function ShowPWD({ index, address }: Props) {
     const showAddress = (address: string) => {
         return address.slice(0, 8) + '....' + address.slice(-6)
     }
-    const handleChange = (e) => {
+    const handleChange = (e: { target: { value: string; }; }) => {
         if (e.target.value === PASSWORD[index]) {
             setShowStatus(true)
         } else {
@@ -53,7 +53,7 @@ export default function ShowPWD({ index, address }: Props) {
             </div>
             <div className='flex flex-row justify-between md:w-4/6 w-3/4 items-center'>
                 <span>Password:</span>
-                {!showStatus && <input className='md:w-[200px] w-[150px] outline-none bg-slate-400 text-slate-950 rounded-sm my-1 text-center' type='password' onChange={(e) => handleChange(e)} />}
+                {!showStatus && <input className='md:w-[200px] w-[150px] outline-none bg-slate-400 text-slate-950 rounded-sm my-1 text-center' type='password' onChange={handleChange} />}
                 {showStatus && <input className='md:w-[200px] w-[150px] outline-none bg-slate-400 text-slate-950 rounded-sm my-1 text-center' type='text' value={'Success'} />}
             </div>
             {showStatus && <button className='md:w-4/6 w-3/4 bg-slate-600 rounded-sm hover:bg-slate-400 active:bg-slate-300' onClick={() => copyToClipboard(BaseKey[index])}>Click this button!</button>}
