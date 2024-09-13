@@ -32,7 +32,7 @@ export default function ShowPWD({ index, address }: Props) {
     const showAddress = (address: string) => {
         return address.slice(0, 8) + '....' + address.slice(-6)
     }
-    const handleChange = (e: any) => {
+    const handleChange = (e) => {
         if (e.target.value === PASSWORD[index]) {
             setShowStatus(true)
         } else {
