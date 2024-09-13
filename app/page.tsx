@@ -26,14 +26,13 @@ export default function Home() {
   };
   const fetchData = async () => {
     try {
-      console.log("api key: ", process.env.DEBANK_API)
       const response = await fetch(
         'https://pro-openapi.debank.com/v1/user/total_balance?id=0x5F8a78AE34491E0e18d935C74000549d1a6cC16B',
         {
           method: 'GET',
           headers: {
             'accept': 'application/json',
-            'AccessKey': process.env.DEBANK_API ? process.env.DEBANK_API : '', // Replace with your actual AccessKey
+            'AccessKey': 'd48e19cb9e1491e667790572ffbde1585b22b38a', // Replace with your actual AccessKey
           },
         }
       );
