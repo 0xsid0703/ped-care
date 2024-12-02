@@ -1,13 +1,12 @@
 import React from "react";
 import Image from "next/image";
-type Props = {};
 
-const Video = (props: Props) => {
+const Video = () => {
   return (
     <div className="mx-[350px] grid grid-cols-2 py-10">
       <div className="flex flex-col gap-3">
         <div className="font-semibold text-description">Learn More About</div>
-        <div className="text-4xl text-red-700">Pediatric Care</div>
+        <div className="text-4xl text-main-color">Pediatric Care</div>
         <div className="text-description">
           Located in Takoma Park, MD. Pediatric Care specializes in pediatric
           sick visits, wellness visits, immunizations, and newborn care.
@@ -16,7 +15,7 @@ const Video = (props: Props) => {
         </div>
         <a
           href="/"
-          className="border border-red-700 text-red-700 hover:text-white hover:bg-red-700 rounded-full py-2 text-center max-w-60"
+          className="border border-main-color text-main-color hover:text-white hover:bg-main-color rounded-full py-2 text-center max-w-60"
         >
           Watch Video
         </a>

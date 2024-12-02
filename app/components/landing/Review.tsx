@@ -1,8 +1,6 @@
 import { Star } from "lucide-react";
 import React from "react";
 
-type ReviewProps = {};
-
 const Review = () => {
   return (
     <div className="w-full bg-review-image bg-center bg-cover bg-no-repeat h-[600px] flex items-center justify-center py-20">
@@ -48,7 +46,7 @@ const Review = () => {
                 ></rect>
               </g>
             </svg>
-            <div className="text-4xl text-red-700">
+            <div className="text-4xl text-main-color">
               Here&apos;s what our satisfied patients are saying...
             </div>
             <div className="mt-2 text-description">
@@ -89,7 +87,7 @@ const Review = () => {
               </div>
               <div className="text-[15px] text-description">5/18/2023</div>
             </div>
-            <div className="border border-red-700 rounded-full bg-white text-red-700 hover:text-white hover:bg-red-700 py-2 max-w-60 text-center">
+            <div className="border border-main-color rounded-full bg-white text-main-color hover:text-white hover:bg-main-color py-2 max-w-60 text-center">
               Read More Reviews
             </div>
           </div>

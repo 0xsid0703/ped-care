@@ -1,12 +1,10 @@
 import { Facebook } from "lucide-react";
 import React from "react";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="w-full">
-      <div className="py-10 px-[350px] grid grid-cols-3 gap-20 text-white bg-red-700">
+      <div className="py-10 px-[350px] grid grid-cols-3 gap-20 text-white bg-main-color">
         <div className="flex flex-col">
           <div className="font-semibold text-lg">VISIT US</div>
           <div className="max-w-8 bg-[#ffffff] h-[4px] opacity-30 mb-3"></div>
@@ -15,7 +13,7 @@ const Footer = (props: Props) => {
           <div className="text-base">Takoma Park , MD 20912</div>
           <a
             href="/"
-            className="mt-3 border border-white rounded-md bg-transparent text-white hover:bg-white hover:text-red-700 py-2 max-w-60 text-center"
+            className="mt-3 border border-white rounded-md bg-transparent text-white hover:bg-white hover:text-main-color py-2 max-w-60 text-center"
           >
             Get Directions
           </a>
@@ -32,7 +30,7 @@ const Footer = (props: Props) => {
           </div>
           <a
             href="/"
-            className="mt-3 border border-white rounded-md bg-transparent text-white hover:bg-white hover:text-red-700 py-2 max-w-60 text-center"
+            className="mt-3 border border-white rounded-md bg-transparent text-white hover:bg-white hover:text-main-color py-2 max-w-60 text-center"
           >
             Send a Message
           </a>

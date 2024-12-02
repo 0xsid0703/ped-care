@@ -26,7 +26,14 @@ const config: Config = {
         "review-image": "url('/review.jpg')",
         "video-image": "url('/video.jpg')",
       },
+      borderColor: {
+        "main-color": "#E51937",
+      },
+      backgroundColor: {
+        "main-color": "#E51937",
+      },
       textColor: {
+        "main-color": "#E51937",
         description: "#464646",
       },
     },

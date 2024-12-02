@@ -5,7 +5,7 @@ const Summary = () => {
     <div className="flex flex-col gap-20 py-10 text-description">
       <div className="flex flex-col mx-[350px] gap-16">
         <div className="flex flex-col gap-5 items-center">
-          <div className="text-2xl font-light text-red-700">
+          <div className="text-2xl font-light text-main-color">
             Pediatric Care: Ensuring Your Child&apos;s Health and Happiness
           </div>
           <div className="grid grid-cols-2 gap-10 text-center">
@@ -21,7 +21,7 @@ const Summary = () => {
               From wellness visits to sick visits, we can provide the care your
               child needs when they need it. Let Pediatric Care be here for your
               child.{" "}
-              <a href="/contact" className="text-red-700">
+              <a href="/contact" className="text-main-color">
                 Contact us
               </a>{" "}
               today to schedule an appointment!
@@ -29,7 +29,7 @@ const Summary = () => {
           </div>
         </div>
         <div className="px-32 flex flex-col items-center gap-5">
-          <div className="text-2xl font-light text-red-700">
+          <div className="text-2xl font-light text-main-color">
             Why Choose Pediatric Care?
           </div>
           <div className="text-center">
@@ -53,7 +53,7 @@ const Summary = () => {
             parking is available at our clinic for your convenience. Overall, at
             Pediatric Care, we are proud to partner with you for your
             child&apos;s health and well-being.{" "}
-            <a href="/contact" className="text-red-700">
+            <a href="/contact" className="text-main-color">
               Contact us
             </a>{" "}
             now!
@@ -66,7 +66,7 @@ const Summary = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 70 70"
             id="1866560962"
-            className="text-red-700 fill-current w-[80px]"
+            className="text-main-color fill-current w-[80px]"
             data-icon-name="wp-heart_beat_thin"
           >
             {" "}
@@ -93,7 +93,7 @@ const Summary = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 100 100"
             id="1594014446"
-            className="text-red-700 fill-current w-[80px]"
+            className="text-main-color fill-current w-[80px]"
             data-icon-name="li_award"
           >
             {" "}
@@ -123,7 +123,7 @@ const Summary = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 100 100"
             id="1975383852"
-            className="text-red-700 fill-current w-[80px]"
+            className="text-main-color fill-current w-[80px]"
             data-icon-name="payment_stacked_coins"
           >
             {" "}
@@ -139,7 +139,7 @@ const Summary = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 70 70"
             id="1018834640"
-            className="text-red-700 fill-current w-[80px]"
+            className="text-main-color fill-current w-[80px]"
             data-icon-name="wp-stethoscope_thin"
           >
             {" "}
@@ -161,7 +161,7 @@ const Summary = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 70 70"
             id="1713880920"
-            className="text-red-700 fill-current w-[80px]"
+            className="text-main-color fill-current w-[80px]"
             data-icon-name="wp-car_thin"
           >
             {" "}
@@ -193,7 +193,7 @@ const Summary = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 70 70"
             id="1511207141"
-            className="text-red-700 fill-current w-[80px]"
+            className="text-main-color fill-current w-[80px]"
             data-icon-name="wp-location_map_thin"
           >
             {" "}

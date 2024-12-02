@@ -11,7 +11,8 @@ const Hero = () => {
         </div>
         <div className="text-3xl">(301) 434-8800</div>
         <div className="text-lg">
-          Hours: <span className="text-red-700">Closed</span> • Opens 09:00 am
+          Hours: <span className="text-main-color">Closed</span> • Opens 09:00
+          am
         </div>
       </div>
       <div className="absolute bg-black opacity-25 h-full w-full z-0"></div>

@@ -31,11 +31,11 @@ const LearnMoreCard = ({
         aria-label="Image"
       ></div>
       <div className="flex flex-col gap-3 justify-center">
-        <div className="text-3xl text-red-700">{title}</div>
+        <div className="text-3xl text-main-color">{title}</div>
         <div className="text-md text-left">{description}</div>
         <a
           href={link}
-          className="text-sm font-semibold border border-red-700 text-red-700 rounded-full hover:bg-red-700 hover:text-white py-2 text-center max-w-60"
+          className="text-sm font-semibold border border-main-color text-main-color rounded-full hover:bg-main-color hover:text-white py-2 text-center max-w-60"
         >
           Learn More
         </a>
