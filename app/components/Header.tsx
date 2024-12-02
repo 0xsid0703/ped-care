@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../assets/pediatric-care-logo.png";
 import Image from "next/image";
 import { navItems } from "../data/navItems";
