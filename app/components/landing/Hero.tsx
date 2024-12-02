@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[550px] bg-hero-image relative bg-center">
+    <div className="w-full h-[780px] bg-hero-image relative bg-center">
       <div className="absolute bottom-10 z-[5] text-white w-full text-center">
         <div className="text-5xl font-semibold">Pediatric Medical Services</div>
         <div className="text-lg">
