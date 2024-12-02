@@ -30,7 +30,7 @@ const LearnMoreCard = ({
         className="w-full h-[350px]"
         aria-label="Image"
       ></div>
-      <div className="flex flex-col gap-3 justify-center">
+      <div className="flex flex-col gap-3 justify-center" dir="ltr">
         <div className="text-3xl text-main-color">{title}</div>
         <div className="text-md text-left">{description}</div>
         <a
