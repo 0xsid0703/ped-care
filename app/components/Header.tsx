@@ -6,11 +6,8 @@ import { navItems } from "../data/navItems";
 import { usePathname } from "next/navigation";
 
 const Header = () => {
-  const [activeDropdown, setActiveDropdown] = useState(-1);
   const pathName = usePathname();
-  const toggleDropdown = (index: number) => {
-    setActiveDropdown(activeDropdown === index ? -1 : index);
-  };
+
   return (
     <div className="fixed bg-white z-10 w-full flex flex-col">
       <div className="container flex flex-row justify-between mx-auto items-center py-10">
