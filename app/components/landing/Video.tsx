@@ -21,13 +21,9 @@ const Video = () => {
         </a>
       </div>
       <div className="bg-video-image w-full h-[300px] bg-center bg-cover bg-no-repeat flex items-center justify-center relative">
-        <Image
-          src={"/play.png"}
-          width={120}
-          height={120}
-          alt=""
-          className="z-[2]"
-        />
+        <a href="/" className="z-[2]">
+          <Image src={"/play.png"} width={120} height={120} alt="" />
+        </a>
         <div className="absolute bg-black opacity-25 z-[1] w-full h-full"></div>
       </div>
     </div>
